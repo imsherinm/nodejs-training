@@ -23,6 +23,7 @@ function checkArrayOrNot(inputArray) {
 // slice (startingIndex , endingIndex);
 // will return an Array as result
 function getFirstNElements(array, n = 1) {
+    //n=1 , default value for function arguments
     return array.slice(0, n);
 }
 
