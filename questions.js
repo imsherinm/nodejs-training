@@ -28,3 +28,35 @@ function getFirstNElements(array, n = 1) {
 }
 
 // console.log(getFirstNElements([1, 2, 3, 4], 0));
+
+// Write a JavaScript function to get the last element of an array. Passing a parameter 'n' will return the last 'n' elements of the array.
+// function getLastNElements(array, n) {
+//     if (n) {
+//         if (array.length - n >= 0) return array.slice(array.length - n, array.length);
+//         else return [];
+//     } else {
+//         if (n != 0) return array.slice(array.length - 1);
+//         else return true;
+//     }
+// }
+
+function getLastNElements(array, n) {
+    if (n == null) {
+        return array.slice(array.length - 1);
+    } else {
+        return array.slice(array.length - n);
+    }
+}
+// console.log(getLastNElements([7, 9, 0, -2]));
+
+console.log(getLastNElements([10, 20, 30, 40], 2));
+
+//Write a simple JavaScript program to join all elements of the following array into a string
+
+// Write a JavaScript program to sort the items of an array
+
+//Write a JavaScript program to compute the sum and product of an array of integers.
+
+//Write a JavaScript function to remove. 'null', '0', '""', 'false', 'undefined' and 'NaN' values from an array.
+
+//Write a JavaScript function to remove a specific element from an array.
