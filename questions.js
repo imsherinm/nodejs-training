@@ -35,7 +35,7 @@ function getLastNElements(array, n = 1) {
     // -ve value to count from reverse order
 }
 
-console.log(getLastNElements([10, 20, 30, 40], 0));
+console.log(getLastNElements([10, 200, 30, 40], 0));
 
 //Write a simple JavaScript program to join all elements of the following array into a string
 
