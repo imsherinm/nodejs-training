@@ -1,4 +1,4 @@
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -6];
+const array = [1, 2, 3, -5, 4, 5, 6, 7, 8, 9, -16];
 // 0
 //
 // let index = 1;
@@ -22,6 +22,9 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -6];
 // const getValues = (value, index) => {
 //     return value * index;
 // };
+
+// const result = array.map((value, index, arr) => value + 5);
+// console.log('result: ', result);
 
 // const result = array.map((elements, index) => {
 //     if (elements === 5) return elements * 10;
@@ -50,7 +53,7 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -6];
 
 // const dummyArray = [null, 0, false, '', undefined, 'sherin', 5];
 
-// const even = dummyArray.filter((value) => !value);
+// const even = dummyArray.filter((value) => value);
 // console.log('even: ', even);
 
 // const evenSqrs = array.filter((value) => value % 2 === 0).map((value) => value * value);
@@ -61,7 +64,8 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -6];
 // reduce
 // const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// const sum = array.reduce((sum, value) => sum + value, 0);
+// const sum = array.reduce((pre, cur, index, arr) => pre + cur, 5);
+// console.log('sum: ', sum);
 
 // pre - 0 , cur - 1 ===== 1
 // pre - 1, cur - 2  ===== 3
@@ -70,18 +74,23 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -6];
 // pre - 10, cur- 5 ====== 15
 
 // every , some
-
+// console.log(array);
 // const value = array.some((value) => value < 0);
 // console.log('value: ', value);
 
 // find
-
+// console.log(array);
 // const negative = array.find((value) => value < 0);
 // console.log('negative: ', negative);
 
 // sort
 // const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// const sortedArray = array.sort((a, b) => b - a);
+// const sortedArray = array.sort((a, b) => b - a); // + 0 -
+// console.log('sortedArray: ', sortedArray);
 
 // console.log('sortedArray: ', sortedArray);
+
+// const result = array.forEach((element) => {});
+
+// console.log(result);
