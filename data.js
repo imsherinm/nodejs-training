@@ -26,7 +26,7 @@ const vehicles = [
         _source: {
             vehicleBrand: 'Maruthi',
             vehicleTypeId: 6,
-            available: true,
+            available: false,
             vehicleModel: 'abcd',
             vehicleNumber: 'DB111',
             vehicleBrandId: 10,

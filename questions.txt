@@ -1,0 +1,18 @@
+write a function to 
+
+1. find vehicles without driver id 
+2. vehicles which are not available (available = false)
+3. find a vehicle with a specified color (pass color as parameter)
+4. find vehicles without location data 
+5. sort the array based on 
+    5.1 _score 
+    5.2 vehicle Id
+6. find a vehicle with baseCharge 
+
+
+7. create a new array of object from the given data with properties vehicle brand , model and vehicle id (result should be an array of objects)
+8. get the vehicle brand and model of vehicle which is not available
+9. get list of colors of all vehicle (result should be an array)
+10. get a sorted array of vehicle type ids from the given data
+
+
