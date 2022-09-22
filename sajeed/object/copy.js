@@ -36,3 +36,18 @@ personChange3.property3=3;
 console.log("personChange3",personChange3);//value change
 console.log("persons",persons);
 
+const person = {
+    name: 'sherin',
+    age: '50',
+    place: 'kannur',
+};
+
+// const personCopy = { ...person };
+
+const personCopy = {};
+Object.assign(personCopy, person);
+
+personCopy.name = 'ajay';
+
+console.log(person);
+console.log('personCopy: ', personCopy);
