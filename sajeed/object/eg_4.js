@@ -16,7 +16,7 @@ var library = [
     }];
     
 
-   const book = library.map((value,index)=>{
+   const book = library.forEach((value,index)=>{
    
 console.log(value.title," ",value.author," ","reading status",value.readingStatus)
    })
