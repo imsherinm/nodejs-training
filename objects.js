@@ -1,9 +1,9 @@
-const person = {
-    property1: 'value1',
-    property2: 'value2',
-    property3: 'value3',
-    property4: 'value4',
-};
+// const person = {
+//     property1: 'value1',
+//     property2: 'value2',
+//     property3: 'value3',
+//     property4: 'value4',
+// };
 
 // keys, values, entries
 
@@ -36,10 +36,26 @@ const person = {
 //
 
 // let arr = [1, 2, 3, 'hello', undefined];
-let number = { value: 1, value2: 3 }; // 0x3423423423
+// let number = { value: 1, value2: 3 }; // 0x3423423423
 
-let copy = number; // 0x3423423423
+// let copy = number; // 0x3423423423
 
-copy.value = 6;
+// copy.value = 6;
 
-console.log(number);
+// console.log(number);
+
+// const person = {
+//     name: 'sherin',
+//     age: '50',
+//     place: 'kannur',
+// };
+
+// // const personCopy = { ...person };
+
+// let personCopy;
+// Object.assign(personCopy, person);
+
+// personCopy.name = 'ajay';
+
+// console.log(person);
+// console.log('personCopy: ', personCopy);
