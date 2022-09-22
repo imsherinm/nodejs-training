@@ -1,22 +1,19 @@
-var library = [ 
-    {
-    author: 'Bill Gates',
-    title: 'The Road Ahead',
-    readingStatus: true
-    },
-    {
-    author: 'Steve Jobs',
-    title: 'Walter Isaacson',
-    readingStatus: true
-    },
-    {
-    author: 'Suzanne Collins',
-    title: 'Mockingjay: The Final Book of The Hunger Games', 
-    readingStatus: false
-    }];
-    
-    console.log(library.map(value => value.readingStatus))
-   console.log(library.map((value,index)=>{
-   
-    console.log(value.title," ",value.author," ",value.readingStatus)
-   }))
+let library = [ 
+   {
+       title:  'The Road Ahead',
+       author: 'Bill Gates',
+       libraryID: 1254
+   },
+   {
+       title: 'Walter Isaacson',
+       author: 'Steve Jobs',
+       libraryID: 4264
+   },
+   {
+       title: 'Mockingjay: The Final Book of The Hunger Games',
+       author: 'Suzanne Collins',
+       libraryID: 3245
+   }
+];
+    const sortArray = library.sort((a,b) =>a.libraryID<b.libraryID);
+    console.log(sortArray);
