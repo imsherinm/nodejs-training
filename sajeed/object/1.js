@@ -87,4 +87,4 @@ const vehicles = [
 ];
 
 //delete
-console.log(vehicles.filter((car)=>delete car._id));
+console.log(vehicles.filter((car)=>car._source.driverId==null));
