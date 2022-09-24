@@ -1,4 +1,3 @@
-//8. get the vehicle brand and model of vehicle which is not available
 const vehicles = [
     {
         _index: 'vehicles',
@@ -83,14 +82,7 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
-console.log("    unavailable car")
-console.log("")
-const availables = vehicles.forEach((car) => {
-    if(car._source.available==false){
-        console.log("Brand:",car._source.vehicleBrand,"   "," ","Modal:",car._source.vehicleModel)
-    }
+  ];
 
-});
-               
 
+console.log(vehicles.filter((car)=>delete car._score.location));

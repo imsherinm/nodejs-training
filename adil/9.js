@@ -1,5 +1,3 @@
-//10. get a sorted array of vehicle type ids from the given data
-
 const vehicles = [
     {
         _index: 'vehicles',
@@ -84,8 +82,6 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
-
-const sortCarId = vehicles.sort((c1,c2)=>c1._id>c2._id ? 1 :c2._id<c1._id ? -1 : 0);
-console.log(sortCarId);
-
+  ];
+  const color = vehicles.map((car)=>car._source.vehicleColour);
+  console.log(color);

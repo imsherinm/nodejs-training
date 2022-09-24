@@ -1,4 +1,3 @@
-//6. find a vehicle with baseCharge 
 const vehicles = [
     {
         _index: 'vehicles',
@@ -83,9 +82,15 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
-//full basecharge list
-console.log(vehicles.filter(car=>car._source.baseCharge));
-//basecharge value based
-console.log(vehicles.filter(car=>car._source.baseCharge==55));
+  ];
 
+  const getVehicleBasedOnColor = (color) => {
+    try {
+        return vehicles.find((vehicles) => vehicles._source.vehicleColour === color);
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+const result = getVehicleBasedOnColor('white');
+ console.log(result);

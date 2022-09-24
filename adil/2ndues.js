@@ -1,5 +1,3 @@
-//9. get list of colors of all vehicle (result should be an array)
-
 const vehicles = [
     {
         _index: 'vehicles',
@@ -84,7 +82,7 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
-// list of colors
-const color = vehicles.map((car)=>car._source.vehicleColour);//map method
-console.log(color);
+  ];
+  
+  const unavailableVehicles = vehicles.filter((vehicles) => !vehicles._source.available);
+ console.log(unavailableVehicles);

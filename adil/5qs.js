@@ -1,4 +1,3 @@
-//2. vehicles which are not available (available = false)
 const vehicles = [
     {
         _index: 'vehicles',
@@ -83,7 +82,10 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
+  ];
+  
 
-//unavailable vehicle  (filter method) "false condition"
-console.log(vehicles.filter(car=>car._source.available==false));
+
+const sortedVehicles = vehicles.sort((a, b) => a._source.vehicleId - b._source.vehicleId); // + ,0 , -
+console.log('sortedVehicles: ', sortedVehicles.map((i) => i._source.vehicleId)
+);

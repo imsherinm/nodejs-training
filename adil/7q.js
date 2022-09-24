@@ -1,4 +1,3 @@
-//3. find a vehicle with a specified color (pass color as parameter)
 const vehicles = [
     {
         _index: 'vehicles',
@@ -83,18 +82,11 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
+  ];
 
+  const newArray = vehicles.map((vehicles, index) => ({
+    ...vehicles._source, type: 'vehicles', slNo: ++index,
+}));
 
-//let carColor = vehicles.filter(car => car._source.vehicleColour === "red");
-//console.log(carColor);
-
-//function    , (pass parameter )
-function myFunction(color){
-      
-   //filter process color based 
-   return vehicles.filter((car)=>car._source.vehicleColour==color);
-
-}
-//enter color as parameter
-console.log(myFunction("red"))//show the result
+console.log(newArray);
+console.log( numberObjects);

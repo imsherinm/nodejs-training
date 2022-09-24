@@ -1,5 +1,3 @@
-//1. find vehicles without driver id 
-
 const vehicles = [
     {
         _index: 'vehicles',
@@ -84,7 +82,12 @@ const vehicles = [
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
+  ];
 
-//delete
-console.log(vehicles.filter((car)=>car._source.driverId==null));
+
+
+
+const unavailableVehicle = vehicles => !vehicles._source.available);
+
+const { vehicleModel, vehicleBrand } = unavailableVehicle._source;
+console.log(vehicleModel, vehicleBrand);

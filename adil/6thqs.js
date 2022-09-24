@@ -1,7 +1,4 @@
-/*7. create a new array of object from the given data with properties vehicle brand ,
- model and vehicle id (result should be an array of objects)  */
-
- const vehicles = [
+const vehicles = [
     {
         _index: 'vehicles',
         _type: '_doc',
@@ -85,10 +82,7 @@
             vehicleTypeName: 'CITYWAYSALOONS',
         },
     },
-];
-
-
-const newVehicle = vehicles.map((key,index)=>({
-    [index._source.vehicleBrand]: key._source.vehicleBrand }));
-console.log(newVehicle);
-vehicles.map()
+  ];
+  
+  const vehicleBaseCharge = vehicles.find((vehicles) => vehicles._source.baseCharge);
+ console.log(vehicleBaseCharge);
