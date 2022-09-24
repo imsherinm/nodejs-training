@@ -7,7 +7,6 @@
 
 
 
-// 10. get a sorted array of vehicle type ids from the given data
 
 
 
