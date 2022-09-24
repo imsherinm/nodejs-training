@@ -16,3 +16,14 @@ write a function to
 10. get a sorted array of vehicle type ids from the given data
 
 
+11. sum of order amount (orderAmount)
+12. total number of cancelled orders (status = cancelled)
+13. sum of completed order amount (status = completed)
+14. sum of cancelled order amount (status = cancelled)
+15. check whether any order amount is greater than 500 order amount
+16. check whether all orders are above 100 order amount
+17. sort orders based on order amount
+18. write a function to get order details by passing order id 
+19. sum of online payment amount
+20. write a function to get sum of online and cod amount separately (return an object which contains sum of both online and cod amount)
+

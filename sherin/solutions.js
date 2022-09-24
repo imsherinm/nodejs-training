@@ -1,4 +1,6 @@
 const data = require('../data');
+const orders = require('../orders.json');
+console.log('orders: ', orders);
 
 // vehicles without driver id
 
@@ -68,5 +70,5 @@ const colors = data.map((vehicle) => vehicle._source.vehicleColour);
 
 const VehicleTypeIds = data.map((vehicle) => vehicle._source.vehicleTypeId);
 const sorted = VehicleTypeIds.sort((a, b) => b - a);
-console.log('VehicleTypeIds: ', VehicleTypeIds);
-console.log('sorted: ', sorted);
+// console.log('VehicleTypeIds: ', VehicleTypeIds);
+// console.log('sorted: ', sorted);
