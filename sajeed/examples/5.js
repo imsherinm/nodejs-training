@@ -4,7 +4,7 @@
 
       const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
        // sort
-       const sortedVehicles = data.sort((a, b) => a._score - b._score); // + ,0 , -
+       const sortedVehicles = data.sort((a, b) => a._source.vehicleId - b._source.vehicleId); // + ,0 , -
        console.log(
           'sortedVehicles: ',
            sortedVehicles.map((i) => i._source.vehicleId)
