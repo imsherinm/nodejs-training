@@ -6,7 +6,8 @@ const response = require('/Users/sajid/Desktop/nodejs-training/orders.json');
 const getSum = () => {
     try {
         const orders = response?.data?.orders;
-        return orders.reduce((sum, value) => sum + Number(value.orderAmount), 0);
+                               
+        return orders.reduce((sum, value) => sum +Number(value.orderAmount), 0); //1428
     } catch (error) {
         console.log('error: ', error);
     }
@@ -14,3 +15,5 @@ const getSum = () => {
 
 // getSum();
 console.log('getSum();: ', getSum());
+
+

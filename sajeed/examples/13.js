@@ -5,8 +5,8 @@ const orders = response?.data?.orders;
 
 let count=0;
 //orders completed list
-const com = orders.filter((element) => element.status == "COMPLETED");
-
-//console.log(com)
-const sum = com.reduce((sum, value) => sum + Number(value.orderAmount), 0);
+const sum = orders.filter((element) => element.status == "COMPLETED").reduce((sum, value) => sum + Number(value.orderAmount), 0);
 console.log("sum of completed orders",sum);
+//console.log(com)
+//const sum = com.reduce((sum, value) => sum + Number(value.orderAmount), 0);
+//console.log("sum of completed orders",sum);

@@ -11,6 +11,4 @@ const getOrderId = (id) => {
         console.log(error);
     }
 };
-//  id as parameter
- const result = getOrderId(25650);
- console.log('result: ', result);
+ console.log('result: ',  getOrderId(25650));

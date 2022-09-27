@@ -20,5 +20,7 @@ function sum(){
 }
 return sumOf;
 }
-//display
+//display object
 console.log(sum());
+//console.log(typeof(sum()))
+
