@@ -1,5 +1,6 @@
 const data = require('../data');
 const response = require('../orders.json');
+const { showName, title } = require('./name');
 
 // console.log('orders: ', orders);
 
@@ -84,4 +85,8 @@ const getSum = () => {
 };
 
 // getSum();
-console.log('getSum();: ', getSum());
+// console.log('getSum();: ', getSum());
+
+showName('sherin', 'M');
+console.log('showName  ', showName('sherin', 'M'));
+console.log(title);
