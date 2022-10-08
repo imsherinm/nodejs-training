@@ -1,6 +1,8 @@
 const data = require('../data');
-const orders = require('../orders.json');
-console.log('orders: ', orders);
+const response = require('../orders.json');
+const { showName, title } = require('./name');
+
+// console.log('orders: ', orders);
 
 // vehicles without driver id
 
@@ -72,3 +74,19 @@ const VehicleTypeIds = data.map((vehicle) => vehicle._source.vehicleTypeId);
 const sorted = VehicleTypeIds.sort((a, b) => b - a);
 // console.log('VehicleTypeIds: ', VehicleTypeIds);
 // console.log('sorted: ', sorted);
+
+const getSum = () => {
+    try {
+        const orders = response?.data?.orders;
+        return orders.reduce((sum, value) => sum + Number(value.orderAmount), 0);
+    } catch (error) {
+        console.log('error: ', error);
+    }
+};
+
+// getSum();
+// console.log('getSum();: ', getSum());
+
+showName('sherin', 'M');
+console.log('showName  ', showName('sherin', 'M'));
+console.log(title);

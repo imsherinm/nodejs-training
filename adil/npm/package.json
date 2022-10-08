@@ -1,0 +1,19 @@
+{
+  "name": "adil",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "20.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherinm-dataspot/nodejs-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherinm-dataspot/nodejs-training/issues"
+  },
+  "homepage": "https://github.com/sherinm-dataspot/nodejs-training#readme"
+}

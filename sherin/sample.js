@@ -113,3 +113,38 @@
 
 // while
 // do- while
+
+function getInvoice(download) {
+    // const name = 'sherin';
+    // -- 100 lines of code
+
+    // order value --- database
+    // discount -- online service
+    // payment -- payment gateway
+    // customer name, address - api
+
+    download();
+}
+
+const result = new Promise((resolve, reject) => {
+    try {
+        // order value --- database
+        // discount -- online service
+        // payment -- payment gateway
+        // customer name, address - api
+
+        const invoice = { amount: 300 };
+
+        resolve(invoice);
+    } catch (error) {
+        reject(error);
+    }
+});
+
+// download(result);
+
+console.log(result);
+
+const getInvoice = async () => {
+    // await // fetch
+};
