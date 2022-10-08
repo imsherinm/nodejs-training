@@ -1,6 +1,6 @@
 //1. find vehicles without driver id 
 
-const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+const data = require('../../data');
 
 //vehicles without driver id 
 console.log("find vehicles without driver id ");

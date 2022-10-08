@@ -1,7 +1,7 @@
 //18. write a function to get order details by passing order id 
 
 
-const response = require('/Users/sajid/Desktop/nodejs-training/orders.json');
+const response = require('../../orders.json');
 const orders = response?.data?.orders;
 
 const getOrderId = (id) => {

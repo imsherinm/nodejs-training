@@ -1,6 +1,6 @@
 //13. sum of completed order amount (status = completed)
   
-const response = require('/Users/sajid/Desktop/nodejs-training/orders.json');
+const response = require('../../orders.json');
 const orders = response?.data?.orders;
 
 let count=0;

@@ -1,7 +1,7 @@
 //19. sum of online payment amount
 
  
-const response = require('/Users/sajid/Desktop/nodejs-training/orders.json');
+const response = require('../../orders.json');
 const orders = response?.data?.orders;
 
 let count=0;

@@ -1,5 +1,5 @@
 //6. find a vehicle with baseCharge 
-const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+const data = require('../../data');
 
 const vehicleWithBaseCharge = data.find((car) => car._source.baseCharge);
  console.log('vehicleWithBaseCharge: ', vehicleWithBaseCharge);

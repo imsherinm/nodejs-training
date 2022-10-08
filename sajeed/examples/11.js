@@ -1,6 +1,6 @@
 //11. sum of order amount (orderAmount)
 
-const response = require('/Users/sajid/Desktop/nodejs-training/orders.json');
+const response = require('../../orders.json');
 
 //sum
 const getSum = () => {

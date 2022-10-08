@@ -1,6 +1,6 @@
 //4. find vehicles without location data
 
-const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+const data = require('../../data');
 
 console.log('find vehicles without location data ');
 //filter without location

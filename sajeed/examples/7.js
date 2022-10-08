@@ -2,7 +2,7 @@
  model and vehicle id (result should be an array of objects)  */
 
 
- const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+ const data = require('../../data');
 
 
 const newArray = data.map((vehicle, index) => ({

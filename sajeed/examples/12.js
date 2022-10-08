@@ -1,5 +1,5 @@
 //12. total number of cancelled orders (status = cancelled)
-const response = require('/Users/sajid/Desktop/nodejs-training/orders.json');
+const response = require('../../orders.json');
 
 const orders = response?.data?.orders;
 let count=0;

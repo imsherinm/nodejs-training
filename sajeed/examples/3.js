@@ -1,6 +1,6 @@
 //3. find a vehicle with a specified color (pass color as parameter)
   
-const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+const data = require('../../data');
 
 
 //function    , (pass parameter )

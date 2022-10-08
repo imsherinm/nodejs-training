@@ -1,5 +1,5 @@
 
- const data = require("/Users/sajid/Desktop/nodejs-training/orders.json")
+ const data = require("../../../orders.json")
 const details = data.data.orders
 
  const id = details.map((id) => id.id)

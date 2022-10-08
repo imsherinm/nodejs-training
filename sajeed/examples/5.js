@@ -2,7 +2,7 @@
       //5.1 _score 
       //5.2 vehicle Id
 
-      const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+      const data = require('../../data');
        // sort
        const sortedVehicles = data.sort((a, b) => a._source.vehicleId - b._source.vehicleId); // + ,0 , -
        console.log(

@@ -1,6 +1,6 @@
 //8. get the vehicle brand and model of vehicle which is not available
 
-const data = require('/Users/sajid/Desktop/nodejs-training/data.js');
+const data = require('../../data');
 
 
 /*console.log("    unavailable car")
