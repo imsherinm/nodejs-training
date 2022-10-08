@@ -45,7 +45,7 @@ const vehicleWithBaseCharge = data.find((vehicle) => vehicle._source.baseCharge)
 // console.log('vehicleWithBaseCharge: ', vehicleWithBaseCharge);
 
 const newArray = data.map((vehicle, index) => ({
-    ...vehicle._source,
+    ...vehicle._source, 
     type: 'vehicle',
     slNo: ++index,
 }));

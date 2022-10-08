@@ -1,0 +1,14 @@
+{
+  "name": "abhinand",
+  "version": "1.0.0",
+  "description": "otp-generator",
+  "main": "object.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "generate-otp": "^1.0.6"
+  }
+}
