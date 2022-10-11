@@ -6,6 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
+
 app.get('/',(req,res)=>{
     res.status(200).send('sajid')
 res.send(sayHi('sajid'))
@@ -27,17 +28,12 @@ app.listen(5000,()=>{
 app.get('/profile/25650', (req, res) => {
   
     try {
-         // check url include
-   if(data.id.includes(Number(path.basename(req.url))))
-   {  
+   
     res.send({ name: 'sajeed', age: 25, status: 'active' });   
        
    }
-   else {
-       res.send('no order respons')
-   }
-             
-    } catch (error) {
+          
+   catch (error) {
         console.log('error: ', error);
         res.sendStatus(500).send('server side error');
     }
