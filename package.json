@@ -1,9 +1,28 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.2",
+    "express": "^4.18.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "nodejs-training",
+  "description": "for nodejs training purpose",
+  "version": "1.0.0",
+  "main": "20.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherinm-dataspot/nodejs-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherinm-dataspot/nodejs-training/issues"
+  },
+  "homepage": "https://github.com/sherinm-dataspot/nodejs-training#readme"
 }
