@@ -1,7 +1,7 @@
 var express = require("express");
 const router  = express.Router();
 
-/get
+//get
 
 route.get('/',function(req,res,next){
     res.render('index',{title: "express";}   )
